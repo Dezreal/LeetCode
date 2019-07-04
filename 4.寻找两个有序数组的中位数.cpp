@@ -11,12 +11,7 @@ public:
         int n = nums2.size();
 
         if (m > n) {
-            vector<int> v = nums1;
-            nums1 = nums2;
-            nums2 = v;
-            int t = m;
-            m = n;
-            n = t;
+            return findMedianSortedArrays(nums2, nums1);
         }
 
         int oe = (m + n) % 2; // odd: 1, even: 0
@@ -61,3 +56,9 @@ public:
     }
 };
 
+/* 
+√ Accepted
+  √ 2084/2084 cases passed (16 ms)
+  √ Your runtime beats 98.79 % of cpp submissions
+  √ Your memory usage beats 98.82 % of cpp submissions (9.4 MB)
+ */
