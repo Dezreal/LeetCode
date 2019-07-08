@@ -39,3 +39,4 @@ private:
   √ 1158/1158 cases passed (144 ms)
   √ Your runtime beats 6.73 % of cpp submissions
   √ Your memory usage beats 9.75 % of cpp submissions (39.8 MB) */
+
